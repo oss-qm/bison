@@ -11,8 +11,7 @@ Release:	1
 License:	GPLv3+
 Group:		Development/Tools
 URL:		http://www.gnu.org/software/bison/bison.html
-Source0:	ftp://ftp.gnu.org/pub/gnu/bison/bison-%{version}.tar.xz
-Patch0:		bison-1.32-extfix.patch
+Source0:	bison-%{version}.tar.gz
 Requires:	m4 >= 1.4
 BuildRequires:	gettext-devel
 BuildRequires:	help2man
