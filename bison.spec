@@ -51,7 +51,7 @@ minimal support for the generated parsers.
 %setup -n %{name}-%{version}
 
 #fix build with autoreconf
-sed -i -e 's,AM_GNU_GETTEXT_VERSION,AM_GNU_GETTEXT_REQUIRE_VERSION,' configure.ac
+#sed -i -e 's,AM_GNU_GETTEXT_VERSION,AM_GNU_GETTEXT_REQUIRE_VERSION,' configure.ac
 
 %build
 autoreconf -fi
