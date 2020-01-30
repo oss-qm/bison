@@ -4,7 +4,7 @@ Version: 3.0.4
 Release: 2%{?dist}
 License: GPLv3+
 Group: Development/Tools
-Source: ftp://ftp.gnu.org/pub/gnu/bison/bison-%{version}.tar.xz
+Source: bison-%{version}.tar.gz
 
 # testsuite dependency
 BuildRequires: autoconf
