@@ -15,11 +15,6 @@ Source0:	bison-%{version}.tar.gz
 Requires:	m4 >= 1.4
 BuildRequires:	gettext-devel
 BuildRequires:	help2man
-%if !%{bootstrap}
-%ifnarch %mips %arm
-BuildRequires:	java-devel-openjdk
-%endif
-%endif
 BuildRequires:	m4 >= 1.4
 #for tests
 BuildRequires:	flex
