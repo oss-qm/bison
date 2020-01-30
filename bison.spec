@@ -1,4 +1,4 @@
-%define staticdevelname %mklibname bison -d -s
+%define staticdevelname libbison-static
 
 %define bootstrap 0
 %{?_without_bootstrap: %global bootstrap 0}
