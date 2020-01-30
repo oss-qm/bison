@@ -7,7 +7,7 @@
 Summary:	A GNU general-purpose parser generator
 Name:		bison
 Version:	3.5.1
-Release:	%mkrel 1
+Release:	1
 License:	GPLv3+
 Group:		Development/Tools
 URL:		http://www.gnu.org/software/bison/bison.html
