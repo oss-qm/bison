@@ -48,7 +48,7 @@ Bison-generated parsers, but may be employed by simple programs to supply
 minimal support for the generated parsers.
 
 %prep
-%autosetup -p1
+%setup -n %{name}-%{version}
 
 #fix build with autoreconf
 sed -i -e 's,AM_GNU_GETTEXT_VERSION,AM_GNU_GETTEXT_REQUIRE_VERSION,' configure.ac
