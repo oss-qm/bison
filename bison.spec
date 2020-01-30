@@ -77,7 +77,7 @@ Bison manual section for more information.
 %setup -q
 
 %build
-%configure
+%configure --docdir %{_docdir}/%{name}
 make
 
 %check
