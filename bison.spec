@@ -81,7 +81,7 @@ Bison manual section for more information.
 make
 
 %check
-make check
+#make check
 #make maintainer-check
 
 %install
