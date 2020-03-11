@@ -78,7 +78,7 @@ Bison manual section for more information.
 
 %build
 %configure --docdir %{_docdir}/%{name}
-make
+make %{?_smp_mflags}
 
 %check
 #make check
